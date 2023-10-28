@@ -1,0 +1,17 @@
+.cardAuto {
+    width:16em;
+    position: relative;
+    top:100px;
+}
+.cardAutoBody {
+    background-color: #123456;
+    height:262px;
+}
+.cardAutoTitle {
+    color: #ffffff !important;
+}
+
+.buttonDiv {
+    position: relative;
+    top:22px;
+}

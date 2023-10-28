@@ -1,0 +1,107 @@
+.aboutMeDiv {
+    position:relative;
+    margin-bottom:50px;
+}
+
+.aboutMeHeaderAndCaption {
+    margin-bottom:130px;
+    animation-name:fadeIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.aboutMeDiv h2 {
+    text-align: center;
+}
+
+.aboutMeCaption {
+    display:block;
+    margin-left: auto;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+.aboutMe2 {
+    width:400px;
+    height:auto;
+    position: relative;
+    top: 7%;
+}
+.aboutMeBody {
+    height:700px;
+    background-color: #ffc000;
+    position: relative;
+    bottom:88px;
+}
+.aboutMeParagraphDiv1 {
+    position: absolute;
+    left:85%;
+    top:10%;
+    transform:translate(-72%,0%);
+}
+.aboutMeParagraphHeader1 {
+    display:none;
+}
+.aboutMeParagraph1 {
+    width:400px;
+    display:none;
+}
+@media(min-width:1111px) {
+    .aboutMe2 {
+        left:17%;
+    }
+}
+@media(min-width:868px) and (max-width:1111px) {
+    .aboutMe2 {
+        left:4%;
+    }
+}
+@media(min-width:766px) and (max-width:868px) {
+    .aboutMe2 {
+        width:300px;
+        top:13%;
+        left:5%;
+    }
+}
+@media (max-width:766px) {
+    .aboutMe2 {
+        width:250px;
+        left:50%;
+        transform: translate(-50%,0%);
+    }
+    .aboutMeParagraphDiv1 {
+        position: absolute;
+        left: 50%;
+        top: 38%;
+        transform: translate(-51%,0%);
+        text-align: center;
+    }
+    .aboutMeParagraphHeader1 {
+        width:256px;
+    }
+    .aboutMeParagraph1 {
+        width:256px;
+    }
+    .aboutMeBody {
+        height:1450px;
+    }
+}
+
+@media (min-width:766px) {
+    .aboutMeParagraphDiv1 {
+        position: absolute; 
+        left: 85%;
+        top: 10%;
+        transform: translate(-72%,0%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

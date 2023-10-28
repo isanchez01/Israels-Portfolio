@@ -1,0 +1,562 @@
+#project {
+    position:relative;
+}
+
+.projectHeader {
+    text-align: center;
+}
+
+.letsCookBodyDiv {
+    background-color: #265004;
+    height:1800px;
+    position: relative;
+    top:42px;
+    margin-bottom:100px;
+}
+.letsCookHeader {
+    position: relative;
+    top:16%;
+    font-size:31px;
+    color:#ffffff;
+    transform:translate(1%,0%);
+    display:none;
+}
+.letsCookLogo {
+    width:228px;
+    height:auto;
+    position:absolute;
+    top:119px;
+    left:51%;
+    transform:translate(-50%, -28%);
+    display:none;
+}
+.letsCookParagraph {
+    font-size: 28px;
+    color: #ffffff;
+    width: 705px;
+    top: 23%;
+    left: 52%;
+    position: relative;
+    transform:translate(-50%,-50%);
+    display:none;
+}
+.codeLink {
+    text-decoration: none;
+    font-size: 26px;
+    position: absolute;
+    top: 35%;
+    right: 52%;
+    transform: translate(134%, -46%);
+    padding: 15px;
+    background-color: #316dbb;
+    color: #ffffff;
+    width:195px;
+    cursor: pointer;
+}
+
+.codeLinkAutoBuddy {
+    text-decoration: none;
+    font-size: 26px;
+    position: absolute;
+    top: 25%;
+    right: 52%;
+    transform: translate(134%, -46%);
+    padding: 15px;
+    background-color: #316dbb;
+    color: #ffffff;
+    width:195px;
+    cursor: pointer;
+
+}
+.demoLink {
+    text-decoration: none;
+    font-size: 26px;
+    position: absolute;
+    top: 35%;
+    right: 45%;
+    transform: translate(-50%, -45%);
+    padding: 15px;
+    background-color: #316dbb;
+    color: #ffffff;
+    cursor: pointer;
+}
+.demoLinkAutoBuddy {
+    text-decoration: none;
+    font-size: 26px;
+    position: absolute;
+    top: 25%;
+    right: 46%;
+    transform: translate(-50%, -45%);
+    padding: 15.3px;
+    background-color: #316dbb;
+    color: #ffffff;
+    width:196px;
+    cursor: pointer;
+}
+.projectsCaption {
+    display:block;
+    margin-left: auto;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+.letsCookImportantInfo {
+    position: relative;
+    text-align: center;
+    top: 27%;
+    font-size: 22px;
+    font-style: italic;
+    color: #ffffff;
+}
+.letsCookImportantInfoPDiv{
+    position: relative;
+    top:49%;
+    left:50%;
+}
+.letsCookImportantInfoHeader {
+    position: relative;
+    top: 37%;
+    font-size: 50px;
+    color: #ffffff;
+}
+.letsCookImportantInfoParagraph {
+    font-size: 28px;
+    color: #ffffff;
+    width: 705px;
+    position: relative;
+    transform:translate(-50%,-50%);
+}
+.autoBuddyBodyDiv {
+    background-color: #bbd8ea;
+    height:2300px;
+    position: relative;
+    bottom:58px;
+    margin-bottom:100px;
+}
+.autoBuddyLogo {
+    width:228px;
+    height:auto;
+    position:absolute;
+    top:119px;
+    left:50%;
+    transform:translate(-55%, -28%);
+    display: none;
+}
+.autoBuddyHeader {
+    position: relative;
+    top:12%;
+    right:11px;
+    font-size:31px;
+    color:#000000;
+    display:none;
+}
+.autoBuddyParagraph {
+    font-size: 28px;
+    color: #000000;
+    width: 705px;
+    top: 16%;
+    left: 52%;
+    position: relative;
+    transform:translate(-50%,-50%); 
+    display:none;
+}
+.autoBuddyImportantInfo{
+    position: relative;
+    text-align: center;
+    top: 19%;
+    font-size: 22px;
+    font-style: italic;
+    color: #000000;
+}
+.autoBuddyImportantInfoHeader {
+    position: relative;
+    top: 27%;
+    font-size: 50px;
+    color: #000000;
+}
+.autoBuddyImportantInfoPDiv{
+    position: relative;
+    top:36%;
+    left:50%;
+}
+.autoBuddyImportantInfoParagraph1 {
+    font-size: 28px;
+    color: #000000;
+    width: 705px;
+    position: relative;
+    transform:translate(-50%,-50%);
+    margin-bottom:100px;
+}
+.autoBuddyImportantInfoParagraph2 {
+    font-size: 28px;
+    color: #000000;
+    width: 705px;
+    position: relative;
+    transform:translate(-50%,-50%);
+    margin-bottom:100px;
+}
+.autoBuddyImportantInfoParagraph3 {
+    font-size: 28px;
+    color: #000000;
+    width: 705px;
+    position: relative;
+    transform:translate(-50%,-50%);
+    margin-bottom:100px;
+}
+.autoBuddyImportantInfoParagraph4 {
+    font-size: 28px;
+    color: #000000;
+    width: 705px;
+    position: relative;
+    transform:translate(-50%,-50%);
+    margin-bottom:100px;
+}
+.autoBuddyImportantInfoParagraph5 {
+    font-size: 28px;
+    color: #000000;
+    width: 705px;
+    position: relative;
+    transform:translate(-50%,-50%);
+    margin-bottom:100px;
+}
+@media(min-width:608px) {
+    .letsCookDiv {
+        position:relative;
+        display: flex;
+        right:24%;
+        justify-content: center;
+    }
+    .autoBuddyDiv {
+        position:relative;
+        left:25%;
+        bottom:507px;
+    }
+}
+
+@media(max-width:608px) {
+    .autoBuddyDiv {
+        margin-bottom:100px;
+    }
+}
+@media (max-width:540px) {
+    .letsCookBodyDiv {
+        height:2600px;
+    }
+    .letsCookLogo {
+        width: 228px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 51%;
+        transform: translate(-50%, -28%);
+    }
+    .letsCookHeader {
+        position: relative;
+        top: 12%;
+        font-size: 31px;
+        color: #ffffff;
+        transform: translate(1%,0%);
+    }
+    .letsCookParagraph {
+        width:285px;
+        top:21%;
+    }
+    .letsCookImportantInfo {
+        position: relative;
+        text-align: center;
+        top: 18%;
+        font-size: 22px;
+        font-style: italic;
+        color: #ffffff;
+    }
+    .letsCookImportantInfoHeader {
+        position: relative;
+        top: 21%;
+        font-size: 46px;
+        color: #ffffff;
+    }
+    .letsCookImportantInfoPDiv {
+        top:33%;
+    }
+    .letsCookImportantInfoParagraph {
+        font-size: 28px;
+        color: #ffffff;
+        width: 267px;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .demoLink {
+        text-decoration: none;
+        font-size: 18px;
+        position: absolute;
+        top: 32%;
+        right: 59%;
+        transform: translate(22%, -48%);
+        padding: 8px;
+        background-color: #316dbb;
+        color: #ffffff;
+        width: 140px;
+    }
+    .codeLink {
+        text-decoration: none;
+        font-size: 18px;
+        position: absolute;
+        top: 32%;
+        transform: translate(-35%, -48%);
+        padding: 8px;
+        background-color: #316dbb;
+        color: #ffffff;
+        width: 132px;
+        left: 70%;
+    }
+    .autoBuddyBodyDiv {
+        height:3650px;
+    }
+    .autoBuddyHeader {
+        top:10%;
+    }
+    .autoBuddyImportantInfo {
+        position: relative;
+        text-align: center;
+        top: 15.9%;
+        font-size: 22px;
+        font-style: italic;
+        color: #000000;
+    }
+    .autoBuddyImportantInfoHeader {
+        position: relative;
+        top: 16%;
+        font-size: 46px;
+        color: #000000;
+    }
+    .autoBuddyImportantInfoPDiv {
+        top:21%;
+    }
+    .autoBuddyImportantInfoParagraph1 {
+        top:28px;
+        font-size: 28px;
+        color: #000000;
+        width: 267px;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .autoBuddyImportantInfoParagraph2 {
+        top:90px;
+        font-size: 28px;
+        color: #000000;
+        width: 267px;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .autoBuddyImportantInfoParagraph3 {
+        top:208px;
+        font-size: 28px;
+        color: #000000;
+        width: 267px;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .autoBuddyImportantInfoParagraph4 {
+        top:245px;
+        font-size: 28px;
+        color: #000000;
+        width: 267px;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .autoBuddyImportantInfoParagraph5 {
+        top:206px;
+        font-size: 28px;
+        color: #000000;
+        width: 267px;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .autoBuddyParagraph {
+        width:285px;
+        top:15%;
+    }
+    .codeLinkAutoBuddy {
+        text-decoration: none;
+        font-size: 18px;
+        position: absolute;
+        top: 23%;
+        transform: translate(-35%, -48%);
+        padding: 8px;
+        background-color: #316dbb;
+        color: #ffffff;
+        width: 132px;
+        left: 70%;
+    }
+    .demoLinkAutoBuddy {
+        text-decoration: none;
+        font-size: 18px;
+        position: absolute;
+        top: 23%;
+        right: 59%;
+        transform: translate(22%, -48%);
+        padding: 8px;
+        background-color: #316dbb;
+        color: #ffffff;
+        width: 140px;
+    }
+}
+@media (min-width:541px) and (max-width:767px) {
+    
+    .letsCookBodyDiv {
+        height:1959px;
+    }
+    .letsCookParagraph {
+        width:505px;
+    }
+    .letsCookImportantInfoParagraph {
+        width:484px;
+    }
+    .autoBuddyBodyDiv {
+        height:2819px;
+    }
+    .autoBuddyHeader {
+        top:12%;
+    }
+    .codeLinkAutoBuddy {
+        top:25%;
+        right:52%;
+    }
+    .demoLinkAutoBuddy {
+        top: 24.99%;
+        right: 33.41%;
+    }
+    .autoBuddyParagraph {
+        left:50%;
+        width:493px;
+    }
+    .autoBuddyImportantInfo {
+        top:20%;
+    }
+    .autoBuddyImportantInfoHeader {
+        font-size: 50px;
+    }
+    .autoBuddyImportantInfoPDiv {
+        top:32%;
+        
+    }
+    .autoBuddyImportantInfoParagraph1 {
+        font-size: 31px;
+        width: 477px;
+    }
+    .autoBuddyImportantInfoParagraph2 {
+        font-size: 31px;
+        width: 477px;
+    }
+    .autoBuddyImportantInfoParagraph3 {
+        font-size: 31px;
+        width: 477px;
+    }
+    .autoBuddyImportantInfoParagraph4 {
+        font-size: 31px;
+        width:477px;
+    }
+    .autoBuddyImportantInfoParagraph5 {
+        font-size: 31px;
+        width:477px;
+    }
+}
+@media(max-width:767px) {
+    .letsCookDiv {
+        position:relative;
+        display: flex;
+        justify-content: center;
+    }
+    .autoBuddyDiv {
+        position:relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(min-width:767px) {
+    .codeLink:hover {
+        animation-name:enlarge;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .codeLinkAutoBuddy:hover {
+        animation-name:enlarge;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .demoLink:hover {
+        animation-name:enlarge2;
+        animation-duration:0.5s;
+        animation-fill-mode: forwards;
+    }
+    .demoLinkAutoBuddy:hover {
+        animation-name:enlarge2;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .letsCookDiv {
+        position:relative;
+        display: flex;
+        justify-content: center;
+    }
+    .autoBuddyDiv {
+        position:relative;
+        display: flex;
+        justify-content: center;
+    }
+    .autoBuddyParagraph {
+        left:54%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes enlarge {
+    from {
+        padding: 15px;
+        width:195px;
+        font-size:26px;
+    }
+    
+    to {
+        padding-bottom: 16px;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
+        width:220px;
+        font-size:30px;
+    }
+}
+
+@keyframes enlarge2 {
+    from {
+        padding: 15px;
+        width:196px;
+        font-size:26px;
+    }
+    
+    to {
+        padding-bottom: 18px;
+        padding-top: 18px;
+        padding-right: 18px;
+        padding-left: 18px;
+        width:214px;
+        font-size:28px;
+    }
+}

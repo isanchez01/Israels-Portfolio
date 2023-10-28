@@ -1,0 +1,370 @@
+#skills {
+    position: relative;
+    margin-bottom:736px;
+}
+#skills h2 {
+    text-align: center;
+}
+.keyboard {
+    width:300px;
+}
+.computerSetupDiv {
+    position: relative;
+    top: 50px;
+}
+.towerImg {
+    width: 179px;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(60%,0%);
+}
+.monitorImg {
+    width: 248px;
+    position: absolute;
+    left: 50%;
+    top: 195%;
+    transform: translate(-50%,28%);
+}
+.keyboardImg {
+    width: 225px;
+    position: absolute;
+    top: 322px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.frontEndSkillsHeader {
+    color: black;
+    font-size: 16px;
+    width: 170px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    top: 34px;
+    position: relative;
+    font-style:italic;
+    display:none;
+}
+.backEndSkillsHeader {
+    color: black;
+    font-size: 16px;
+    left: 50%;
+    top: 133px;
+    position: relative;
+    width: 156px;
+    transform: translate(75%,0%);
+    display:none;
+    height:0;
+    margin-bottom:0;
+}
+.otherSkillsHeader {
+    color: black;
+    font-size: 16px;
+    position: relative;
+    top: 423px;
+    left: 50%;
+    transform: translate(-159%,0%);
+    width: 163px;
+    display:none;
+    margin-bottom:0;
+    height:0;
+}
+.frontEndSkillsDiv {
+    background-color: #ffc000;
+    display:none;
+    padding-bottom:200px;
+    margin-bottom:125px;
+}
+.frontEndSkillsImages {
+    position: relative;
+    top:72px;
+}
+.otherSkillsImages {
+    padding-bottom:100px;
+}
+.backEndSkillsDiv {
+    background-color: #ffc000;
+    display:none;
+    margin-bottom:125px;
+}
+.otherSkillsDiv {
+    background-color: #ffc000;
+    display:none;
+    margin-bottom:125px;
+}
+.languagesDiv {
+    position:relative;
+}
+.languageImages {
+    position: relative;
+}
+.languagesHeader {
+    text-align: center;
+}
+.htmlLogo {
+    width:170px;
+    height:auto;
+}
+.javascriptLogo {
+    width:140px;
+    height:auto;
+    margin-left: 36px;
+}
+.cssLogo {
+    width:180px;
+    height:auto;
+    bottom:10px;
+    position:relative;
+    margin-left: 18px;
+}
+.librariesHeader {
+    position:relative;
+    left:20%;
+}
+.reactLogo {
+    width:140px;
+    height:auto;
+    margin-left: 17px;
+}
+.jqueryLogo {
+    width:200px;
+    height:auto;
+    margin-left:9px;
+}
+.bootstrapLogo {
+    width: 180px;
+    height: auto;
+    margin-left: -15px;
+    position: relative;
+    top: 3px;
+}
+.typescriptLogo {
+    width: 180px;
+    height: auto;
+    margin-left: 9px;
+    position: relative;
+    bottom: 10px;
+}
+.viteLogo {
+    width:170px;
+    height: auto;
+    margin-left:6px;
+}
+.javaLogo {
+    width:200px;
+    height:auto;
+}
+.pythonLogo {
+    width:240px;
+    height:auto;
+    margin-right: 10px;
+    margin-left: 71px;
+}
+.djangoLogo {
+    width:200px;
+    height: auto;
+    margin-left: 94px;
+    margin-right: 49px;
+}
+.springBootLogo {
+    width:200px;
+    height:auto;
+    margin-left: 95px;
+    margin-right: 54px;
+}
+.thymeleafLogo {
+    width:120px;
+    height:auto;
+    margin-left: 94px;
+}
+.postgresLogo {
+    width:170px;
+    height:auto;
+}
+.tomcatLogo {
+    width:170px;
+    height:auto;
+}
+.awsLogo {
+    width:300px;
+    height:auto;
+    margin-left:-14px;
+}
+.gitLogo {
+    width:200px;
+    height:auto;
+}
+.cpanelLogo {
+    width:260px;
+    height:auto;
+}
+.uiuxDesign {
+    width: 200px;
+    height: 192px;
+    position: relative;
+    top: 33px;
+    margin-left:-28px;
+}
+.oopLogo {
+    width: 200px;
+    height: auto;
+    position: relative;
+    top:14px;
+    margin-left:-26px;
+}
+@media (max-width:411px) {
+    .computerSetupDiv {
+        right:25px;
+    }
+    .towerImg {
+        width:106px;
+        top:105px;
+    }
+    .monitorImg {
+        width:151px;
+    }
+    .keyboardImg {
+        width:168px;
+        top:194px;
+    }
+    .frontEndSkillsHeader {
+        transform: translate(-63%,0%);
+        font-size: 13px;
+        display: block;
+    }
+    .backEndSkillsHeader {
+        width:132px;
+        top:21px;
+        font-size: 13px;
+        display: block;
+        transform: translate(25%,0%);
+    }
+    .otherSkillsHeader {
+        width: 130px;
+        top:281px;
+        transform:translate(-135%,0%);
+        font-size:13px;
+        display: block;
+    }
+}
+@media(min-width:412px) and (max-width:520px){
+    .computerSetupDiv {
+        right:36px;
+    }
+    .towerImg {
+        width:147px;
+        top:137px;
+    }
+    .monitorImg {
+        width:192px;
+    }
+    .keyboardImg {
+        width:185px;
+        top:246px;
+        left:51%;
+    }
+    .frontEndSkillsHeader {
+        left:50%;
+        transform: translate(-70%,0%);
+        display: block;
+    }
+    .backEndSkillsHeader {
+        left:45%;
+        transform:translate(46%,0%);
+        top:37px;
+        display: block;
+    }
+    .otherSkillsHeader {
+        width: 130px;
+        top:334px;
+        transform:translate(-153%,0%);
+    }
+}
+@media (min-width:521px) and (max-width:766px) {
+    .frontEndSkillsHeader {
+        top:42px;
+    }
+    .backEndSkillsHeader {
+        top:74px;
+    }
+    .otherSkillsHeader {
+        top:355px;
+    }
+}
+@media (max-width:766px) {
+    .frontEndSkillsHeader {
+        display:block;
+    }
+    .backEndSkillsHeader {
+        display: block;
+    }
+    .otherSkillsHeader {
+        display: block;
+    }
+}
+@media(max-width:767px) {
+    .skillsInstructionsLargeScreens {
+        display:none;
+        margin-left: auto;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top:10px;
+    }
+    .skillsInstructionsSmallScreens {
+        display:none;
+        margin-left: auto;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top:10px;
+    }
+}
+@media(min-width:767px) {
+    .skillsInstructionsLargeScreens {
+        display:block;
+        margin-left: auto;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top:10px;
+    }
+    .skillsInstructionsSmallScreens {
+        display:none;
+        margin-left: auto;
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top:10px;
+    }
+
+}
+@media (max-width:1439px) {
+    .oopLogo {
+        margin-left:-20px;
+    }
+    .uiuxDesign {
+        margin-left:-28px;
+    }
+}
+.desktopImg {
+    width:50%;
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:100px;
+}
+
+@keyframes rollDown {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 600px;
+    }
+}

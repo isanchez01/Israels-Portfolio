@@ -1,0 +1,133 @@
+@media(max-width:766px) {
+    .navHeader {
+        font-size:1rem;
+        color: #003b5c;
+        position:absolute;
+        transform:translate(-50%, 17%);
+        left:50%;
+    }
+
+    nav {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffc000;
+        padding:10px 60px;
+        min-width: 100%;
+        height:52px;
+    }
+    #navbar {
+        display: none;
+        position: relative;
+        top:40px;
+    }
+    .navbarMobile {
+        display: block;
+        position: relative;
+        text-align: center;
+        background-color: #003b5c;
+        max-height: 188px;
+        animation-name: dropdown;
+        animation-duration: 0.13s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+    }
+    .navbarMobile a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #ffc000;
+        display: block;
+        padding-bottom:16px;
+        animation-name: fadeIn;
+        animation-duration: 0.13s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+    }
+    .navbarMobile a:hover {
+        background-color: #68a1fc;
+    }
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+        color: #003b5c;
+    }
+}
+
+@media(min-width:767px) {
+    .Hamburger {
+        display: none;
+    }
+    h2 {
+        font-size:1rem;
+        color: #003b5c;
+    }
+    nav {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffc000;
+        padding:10px 60px;
+        min-width: 100%;
+    }
+    .navbarMobile {
+        display: none;
+    }
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        position: relative;
+        top:7px;
+    }
+
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+        color: #003b5c;
+        cursor: pointer;
+    }
+    #navbar li a:hover {
+        color:#68a1fc;
+    }
+    .aboutMeLink {
+        width:109px;
+        display:block;
+        left:14px;
+        position:relative;
+    }
+}
+
+@keyframes dropdown {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: auto;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
